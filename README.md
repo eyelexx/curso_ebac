@@ -1,2 +1,2 @@
-# curso_ebac_git
-Exercício do módulo 2
+# curso_ebac
+Exercício do módulo 3
