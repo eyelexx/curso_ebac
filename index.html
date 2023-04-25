@@ -10,7 +10,7 @@
          body {
             background-color: antiquewhite;
          }
-         .form {
+         form {
             font-family: 'Arial';
             background-color: aliceblue;
             display: flex;
@@ -24,7 +24,7 @@
             border-radius: 1rem;
          }
 
-         .campos {
+         .form-item {
             flex-direction: row;
          }
 
@@ -38,27 +38,30 @@
 
    </head>
    <body>
-      <div class="form">
+      <form>
          <h1>Formulário de cadastro</h1>
-         <div class="campos">
-            <label for="Nome">Nome</label>
-            <input type="text" name="Nome">
+         <div class="form-item">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" name="nome">
          </div>
-         <div class="campos">
-            <label for="Email">Email</label>
-            <input type="text" name="Email">
+         <div class="form-item">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
          </div>
-         <div class="campos">
-            <label for="Senha">Senha</label>
-            <input type="text" name="Senha">
+         <div class="form-item">
+            <label for="senha">Senha</label>
+            <input id="senha" type="text" name="senha">
          </div>
       </br>
       </br>
-      <div class="campos">
-            <label for="Termos">Aceito todos os termos de uso.</label>
-            <input type="checkbox" name="Termos">
-         </div>
-         <button type="submit">Cadastrar</button>
+      <div class="form-item">
+         <input id="termos" type="checkbox">
+         <label for="termos">Aceito todos os termos de uso</label>
       </div>
+      <div class="form-item">
+         <button type="submit">Enviar</button>
+         <button type="reset">Limpar</button>
+      </div>
+      </form>
    </body>
 </html>
