@@ -1,0 +1,92 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logotipo {
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:focus,
+div input:focus {
+    border-color: #D98E32 !important;
+    box-shadow: 0 0 0 0.25rem #D98E32 !important;
+}
+
+.navbar {
+    background-color: #BF544B;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #F1F2E9;
+    color: #BF544B;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #F1F2E9;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #F1F2E9;
+}
+
+.text-colored {
+    color: #BF544B;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #BF544B;
+    color: #F1F2E9;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #BF544B;
+}
+
+.comprar {
+    background-color: #BF544B;
+    color: #F1F2E9;
+    border: 0;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    height: 87vh;
+}
+
+#ocasioes-items img {
+    height: 50%;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
