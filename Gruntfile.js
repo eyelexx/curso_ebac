@@ -28,6 +28,6 @@
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default');
     grunt.registerTask('build', ['less:production', 'uglify']);
 }
